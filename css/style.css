@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/keep-on-truckin-2');
+/* font-family: 'Keep on Truckin', sans-serif; */
+                                                
+body {
+    background-color: #fffde8;
+}
+.container {
+    height: 650px;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C93C3C;
+    width: 92%;
+    float: right;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #80CEFD;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #9a2e2e;
+  }
+  .logo  {
+    width: 100px;
+    height: auto;
+    display: flex;
+  }
+  #name {
+    font-family: 'Keep on Truckin', sans-serif;
+    color: #496D84;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+.skills {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+#ui-ux {
+    color: #FD9799;
+    margin-right: 10px;
+}
+#web {
+    color: #80CEFD;
+    margin-right: 10px;
+}
+#fashion {
+    color: #C93C3C;
+}
+.apps {
+    position: relative;
+    
+}
+.projects {
+    position: absolute;
+    text-align: center;
+    left: 300px;
+    font-size: 14px;
+}
+.email {
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 400px;
+    font-size: 14px;
+}
+.resume  {
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    left: 600px;
+    font-size: 14px;
+}
+.about {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    left: 1000px;
+    top: 50px;
+}
+.linkedin {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    top: 250px;
+    left: 1100px;
+}
+.insta {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    top: 250px;
+    left: 1200px;
+}
+button {
+    position: absolute;
+    width: 110px;
+    background-color: #C93C3C;
+    color: #fffde8;
+    top: 510px;
+    left: 625px;
+}
+button:hover {
+    background-color: #496D84;
+}
+
+footer {
+    height: 50px;
+    background: #C93C3C;
+    color: #80CEFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+}
