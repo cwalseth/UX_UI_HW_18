@@ -7,7 +7,7 @@ body {
     background-color: #fffde8;
 }
 .container {
-    height: 650px;
+    height: 660px;
     width: 100%;
 }
 ul {
@@ -18,6 +18,7 @@ ul {
     background-color: #C93C3C;
     width: 92%;
     float: right;
+    font-family: 'Montserrat', sans-serif;
   }
   
   li {
@@ -67,7 +68,7 @@ ul {
 }
 .apps {
     position: relative;
-    
+    font-family: 'Montserrat', sans-serif;
 }
 .projects {
     position: absolute;
@@ -117,11 +118,99 @@ button {
     color: #fffde8;
     top: 510px;
     left: 625px;
+    font-family: 'Montserrat', sans-serif;
 }
 button:hover {
     background-color: #496D84;
 }
 
+/* /////// my skills page starts here  */
+section.myskills {
+    /* background-color: red; */
+    height: 450px;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #496D84;
+}
+div.figma {
+    width: 33%;
+    text-align: center;  
+    font-size: 12px; 
+}
+.figma img {
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+}
+div.uxui-design {
+    width: 33%;
+    text-align: center;
+    font-size: 12px;
+}
+.uxui-design img {
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+}
+div.ui-research {
+    width: 33%;
+    text-align: center;
+    font-size: 12px;
+}
+.ui-research img {
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+}
+/* ////// projects starts here  */
+section.mywork {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #496D84;
+    /* background-color: red;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 300px 300px; */
+    /* background-color: white; */
+    /* grid-area: ; */
+}
+.workgrid {
+    display: grid;
+    grid-template-columns: 30% 40%;
+    grid-template-rows: 210px 210px;
+    gap: 10px;
+    /* background-color: #80CEFD; */
+    padding: 10px;
+    justify-content: center;
+}
+.workgrid > div {
+    /* background-color: #80CEFD; */
+    text-align: center;
+    padding: 20px 0;
+}
+button#filter-button {
+    position: absolute;
+    top: 130px;
+    margin-left: 200px;
+}
+button#artlet-button {
+    position: absolute;
+    top: 350px;
+    margin-left: 200px;
+}
+#filter-button:hover, #artlet-button:hover {
+    background-color: #496D84;
+}
+#h3-work {
+    position: absolute;
+    margin-left: 1150px;
+    bottom: 1px;
+}
+#h3-work:hover {
+    color: #FD9799;
+}
+
+
+
+
+/* ///////// footer below  */
 footer {
     height: 50px;
     background: #C93C3C;
