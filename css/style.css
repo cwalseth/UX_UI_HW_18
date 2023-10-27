@@ -16,7 +16,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #C93C3C;
-    width: 92%;
+    width: 94%;
     float: right;
     font-family: 'Montserrat', sans-serif;
   }
@@ -37,7 +37,7 @@ ul {
     background-color: #9a2e2e;
   }
   .logo  {
-    width: 100px;
+    width: 75px;
     height: auto;
     display: flex;
   }
@@ -128,7 +128,7 @@ button:hover {
 section.myskills {
     /* background-color: red; */
     height: 450px;
-    width: 80%;
+    width: 90%;
     justify-content: center;
     margin: 0 auto;
     display: flex;
@@ -187,13 +187,13 @@ section.mywork {
 }
 button#filter-button {
     position: absolute;
-    top: 130px;
-    margin-left: 200px;
+    top: 170px;
+    margin-left: 235px;
 }
 button#artlet-button {
     position: absolute;
-    top: 350px;
-    margin-left: 200px;
+    top: 390px;
+    margin-left: 235px;
 }
 #filter-button:hover, #artlet-button:hover {
     background-color: #496D84;
@@ -207,9 +207,6 @@ button#artlet-button {
     color: #FD9799;
 }
 
-
-
-
 /* ///////// footer below  */
 footer {
     height: 50px;
@@ -219,4 +216,64 @@ footer {
     align-items: center;
     justify-content: center;
     visibility: visible;
+}
+
+/* ///// media screen starts here  */
+
+@media only screen and (max-width: 600px) {
+    div.container {
+        height: 1000px;
+    }
+    ul {
+        width: 86%;
+        display: inline-block;
+    }
+    li {
+        font-size: 8px;
+    }
+    .logo {
+        width: 65px;
+    }
+    section.mywork {
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        color: #496D84;
+        /* background-color: red;
+        height: 450px;
+        display: grid;
+        grid-template-columns: 300px 300px; */
+        /* background-color: white; */
+        /* grid-area: ; */
+    }
+    .workgrid {
+        grid-template-rows: 170px 200px 180px;
+        grid-template-columns: 1fr;
+    }
+    .workgrid > div {
+        /* background-color: #80CEFD; */
+        text-align: center;
+        padding: 20px 0;
+    }
+    button#filter-button {
+        position: absolute;
+        top: 300px;
+        float: left;
+        width: 30px;
+        height: 30px;
+    }
+    button#artlet-button {
+        width: 20px;
+    }
+    #filter-button:hover, #artlet-button:hover {
+        background-color: #496D84;
+    }
+    #h3-work {
+        position: absolute;
+        justify-content: center;
+        margin-left: 160px;
+        top: 760px;
+    }
+    #h3-work:hover {
+        color: #FD9799;
+    }
 }
